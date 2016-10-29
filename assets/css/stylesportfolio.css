@@ -1,0 +1,306 @@
+body {
+
+    font-family: arial, "Helvetica Neue", Helvetica, "sans-serif";
+    line-height: 120%;
+    color: #777777;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-color: #ffffff;
+    border: #cccccc;
+}
+
+p {
+    color: #777777;
+}
+
+#bolder:hover {
+    font-weight: bold;
+    color: red;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    font-family: georgia, times, "times new roman", serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+h5,
+h6 {
+    color: white;
+}
+
+#cwm {
+    width: 70%;
+}
+
+
+#yourname,
+#contact,
+#portfolio,
+#about {
+    height: 50px;
+}
+
+#yourname {
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #4aaaa5;
+}
+
+
+#contact,
+#portfolio,
+#about {
+    line-height: 30px;
+    font-size: 12px;
+    padding-top: 20px;
+    float: right;
+    width: 70px;
+    text-align: center;
+}
+
+#about {
+    margin-right: 140px;
+}
+
+.content {
+    clear: both;
+    padding-top: 25px;
+    background: #d3d3d3;
+    border: #dddddd;
+    overflow: auto;
+}
+
+
+img {
+    float: left;
+    padding-right: 28px;
+}
+
+
+.aboutme {
+    color: #4aaaa5;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    background: white;
+    line-height: 25px;
+}
+
+ .leftsidebar {
+    float: none;
+    width: auto;
+ }
+
+.aside {
+    font-weight: bold;
+    color: #4aaaa5;
+    display: inline-block;
+    margin-left: 20px;
+    height: 120px;
+    width: 250px;
+    text-align: center;
+    padding-top: 15px;
+    background: white;
+}
+
+ul { list-style-type: none;
+    overflow: auto;
+    padding-left: 32px;
+    margin-left: 5px;
+ }
+
+
+.contactdiv {
+    font-weight: bold;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    background: white;
+}
+
+#name,
+#email,
+#message {
+    font-size: 12px;
+    line-height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d3d3d3;
+}
+
+#message {
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+#name:hover,
+#email:hover, 
+#message:hover {
+    background-color: yellow;
+}
+
+
+#submission {
+    padding-top: 10px;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    background: #4aaaa5;
+    font-weight: bold;
+}
+
+
+.portfolio2 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    width: 440px;
+    background: white;
+}
+
+.fixmargin {
+    margin-right: 5px;
+}
+
+.container1 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.center {
+    padding-top: 7px;
+    font-size: 12px;
+    color: white;
+    background: #4aaaa5;
+    height: 30px;
+    padding-bottom: 7px;
+    position: absolute;
+    top: 80px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+}
+
+
+#space {
+    height: 8px;
+    background: #4aaaa5;
+}
+
+
+#footer {
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #666666;
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    .container {width: 980px; margin: 0 auto; border-width: 1px; border-style: solid; border-color: black}
+    .header {width: 93%;}
+    #yourname {margin-left: 97px;}
+    .portfolio2 {margin-left: 95px; width: 35%;}
+    .aside {width: 22%;}
+    img {padding-right: 10px;}
+    #cwm {width: 65%;}
+    #footer {padding-right: 30px; padding-top: 20px;}
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {width: 768px; margin: 0 auto; border-width: 1px; border-style: solid; border-color: black;}
+    .header {width: 115%;}
+    #yourname {margin-left: 20px;}
+    .portfolio2 {margin-left: 20px; width: 83%;}
+    img {width: 300px; height: 250px;}
+    #logos {width: 40px; height: 40px;}
+    .center {width: 300px; font-size: 20px; padding-top: 15px; padding-bottom: 15px; top: 190px;}
+    h3 {text-align: left; margin-left: 20px;}
+    .aside {width: 95%; margin-bottom: 20px;}
+    #cwm {width: 94%;}
+    ul {padding-left: 17px;}
+    #footer {padding-top: 20px;}
+}
+
+
+@media screen and (max-width: 640px) {
+    .container {width: 640px; margin: 0 auto; border-width: 1px; border-style: solid; border-color: black;}
+    h1 {font-size: 30px;}
+    h2 {font-size: 28px; padding-top: 10px; padding-bottom: 10px;}
+    h3 {text-align: left; margin-left: 21px; font-size: 18px;}
+    #cwm {width: 92%;}
+    #yourname {width: 640px; margin-left: 0px;}
+    .aside {width: 94%; margin-top: 20px; margin-right: 20px; margin-bottom: 20px;}
+    .portfolio2 {margin-left: 20px; width: 87%; padding-right: 20px; padding-left: 20px;}
+    img {width: 557px; height: 350px;}
+    .center {width: 557px; font-size: 20px; padding-top: 15px; padding-bottom: 15px; top: 290px;}
+    .content {width: 100%;}
+    .header {position: static; width: 88%}
+    #footer {padding-top: 20px;}
+}
+
+
+
+
